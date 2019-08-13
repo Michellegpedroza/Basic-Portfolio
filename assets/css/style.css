@@ -1,61 +1,62 @@
-/* navBar for all pages */
-header{ 
+/* navigation bar for all pages */
+
+header {
     background-color: #4682b4;
     color: #ffffff;
     padding: 25px;
     margin: 0;
 }
 
-#navDiv{
+#navDiv {
     width: 960px;
     margin: auto;
 }
 
-#name{
+#name {
     display: inline;
     background-color: #ffffff;
     padding: 25px;
-    color:#4682b4;
-    border: 1px solid #4682b4;  
+    color: #4682b4;
+    border: 1px solid #4682b4;
 }
 
-.navLinks{
-    float:right;
+.navLinks {
+    float: right;
 }
 
-.navLinks a:hover{
+.navLinks a:hover {
     border-bottom: 3px solid #c0c0c0;
 }
 
-.navLinks a.active{
+.navLinks a.active {
     border-bottom: 3px solid #c0c0c0;
 }
 
-a{
+a {
     color: #ffffff;
-    padding:10px;
+    padding: 10px;
     font-size: 25px;
     text-decoration: none;
 }
 
+/* background image for all pages */
 
-body{
+body {
     background-image: url("../images/full-bloom.png");
 }
 
+/* container for all pages*/
 
-/* about me container */
-.h1{
+.h1 {
     color: #4682b4;
     padding-left: 20px;
- }
+}
 
-hr{
+hr {
     width: 920px;
 }
 
-.container{
-    margin-top: 15px;
+.container {
     width: 960px;
     height: auto;
     margin: auto;
@@ -63,15 +64,34 @@ hr{
     border: 2px solid #4682b4;
 }
 
-#profilePic{
+/* about me content */
+
+#profilePic {
     float: left;
     width: 250px;
     height: 300px;
     padding: 20px;
 }
 
-p{
+p {
     line-height: 200%;
     padding-right: 20px;
     padding-left: 20px;
+}
+
+/* footer for all pages */
+
+#footer {
+    height: 75px;
+    width: 100%;
+    background-color: #808080;
+    color: #fff;
+    border-top: 10px solid #4682b4;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#copyright {
+    padding-top: 35px;
+    font-size: 13px;
 }
