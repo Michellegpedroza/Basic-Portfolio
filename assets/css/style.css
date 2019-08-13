@@ -1,0 +1,57 @@
+/* navBar for all pages */
+header{ 
+    background-color: #4682b4;
+    color: #ffffff;
+    padding: 25px;
+}
+
+#name{
+    display: inline;
+    background-color: #ffffff;
+    padding: 25px;
+    margin-left: 200px;
+    color:#4682b4;
+    border: 1px solid #4682b4;
+}
+
+.navLinks{
+    float:right;
+    margin-right: 45px;
+}
+
+a{
+    color: #ffffff;
+    padding:10px;
+    padding-right: 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* about me box */
+body{
+    background-image: url("../images/full-bloom.png");
+}
+
+#profilePic{
+    width: 250px;
+    height: 300px;
+    padding: 15px;
+}
+
+.aboutBox{
+    width: 960px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 225px;
+    margin-right: 80px;
+    padding:15px;
+    background-color: #ffffff;
+    border: 2px solid #4682b4;
+}
+
+.aboutMe{
+   color: #4682b4;
+   padding-top: 15px;
+   padding-left: 25px;
+   padding-right: 25px;
+}
