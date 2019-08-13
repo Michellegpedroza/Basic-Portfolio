@@ -5,6 +5,10 @@ header{
     padding: 25px;
 }
 
+.navDiv{
+    width: 960px;
+}
+
 #name{
     display: inline;
     background-color: #ffffff;
@@ -17,6 +21,14 @@ header{
 .navLinks{
     float:right;
     margin-right: 45px;
+}
+
+.navLinks a:hover{
+    border-bottom: 3px solid #808080;
+}
+
+.navLinks a.active{
+    border-bottom: 3px solid #808080;
 }
 
 a{
