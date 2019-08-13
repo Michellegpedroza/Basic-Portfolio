@@ -48,6 +48,7 @@ body {
 /* container for all pages*/
 
 .h1 {
+    font-family:'Georgia', Times, 'Times New Roman', serif;
     color: #4682b4;
     padding-left: 20px;
 }
@@ -61,7 +62,8 @@ hr {
     height: auto;
     margin: auto;
     background-color: #ffffff;
-    border: 2px solid #4682b4;
+    border: 2px solid #c0c0c0;
+    font-family: Arial', Helvetica Neue, 'Helvetica', 'sans-serif;
 }
 
 /* about me content */
@@ -79,9 +81,41 @@ p {
     padding-left: 20px;
 }
 
+/* portfolio - gallery content */
+
+.photos{
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.gallery{
+    position: relative;
+    display: inline;
+}
+
+.text-block{
+    position: absolute;
+    width: 200px;
+    bottom: 35px;
+    left:20px;
+    background-color: #4682b4;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+
+
+
+
 /* footer for all pages */
 
 #footer {
+    position: fixed;
+    left:0;
+    bottom:0;
     height: 75px;
     width: 100%;
     background-color: #808080;
