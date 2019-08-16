@@ -105,6 +105,11 @@ p {
     text-align: center;
 }
 
+a{
+    margin: auto;
+}
+
+
 /* contact content */
 
 form{
